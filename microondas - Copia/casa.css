@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.icons:hover{
+  color: #f26522;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+
+.hero {
+  background: #2f2f2f;
+  color: white;
+  padding: 40px 0;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text h2 {
+  font-size: 2.2rem;
+  line-height: 1.4;
+}
+
+.hero-text span {
+  color: #f26522;
+  font-weight: 900;
+}
+
+.hero-text p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.hero-image img {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.steps {
+  background: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.steps h3 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+.step-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.step {
+  max-width: 250px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.orange {
+  color: #f26522;
+}
+
+.benefits {
+  background: #0f2d5c;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.benefits h3 {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+
+.benefit-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.benefit-cards .card {
+  background: #f26522;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1;
+  min-width: 250px;
+  max-width: 320px;
+}
+
+.benefit-cards .card img {
+  width: 50px;
+  margin: 20px 0;
+}
+
+.benefit-cards .card h4 {
+  font-size: 1.2rem;
+}
+
+.benefit-cards .card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.services {
+  background: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.service-icons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.service {
+  max-width: 140px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease;
+}
+
+.service:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.service img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
